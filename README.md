@@ -10,11 +10,15 @@ Pickr is a minimalistic Chrome Extension tool that I built to experiment with de
 ![Magnified screenshot of Pickr UI (user interface)](./images/screenshot.png)
 
 ### How to Use?
-Thanks for taking interest! You won't find Pickr in the Chrome Web Store. I've decided (for now) it doesn't need to be in there as it's not a heavily developed extension. If you'd like to use it please follow the instructions below:
+Thanks for taking interest! You won't find Pickr in the Chrome Web Store. I've decided (for now) it doesn't need to be there as it's not a heavily developed extension. If you'd like to use it please follow the instructions below:
 1. Download this repository as a `.zip` file
 2. Extract and place the entire Pickr repository folder somewhere safe (*I suggest the Documents or make a Developer directory - just somewhere you wont accidentally delete it*)
 3. Open the Chrome web browser. In the right-hand menu, navigate down to **Extensions** then click on **Manage Extensions**.
-<img src="/images/step3.png" margin="auto" alt="image" width="200" height="auto">
+
+<div style="text-align:center">
+    <img src="./images/step3.png" alt="image" width="300" height="auto">
+</div>
+
 4. Ensure that you are in "Developer Mode" by clicking the toggle in the top corner so it becomes blue.
 5. Click on **Load unpacked** and navigate into the root of the Pickr folder. Press **Select**.
 6. You're done! Now you can use the extension by clicking on the puzzle logo in the address bar and selecting **Pickr**.
