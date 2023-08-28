@@ -1,0 +1,36 @@
+{
+    "name": "Pickr",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+    "description": "Easy-to-use eye dropper tool for picking colors from web pages.",
+
+    "action": {
+        "default_popup": "./popup.html"
+    },
+
+    "author": "kelcisayshello",  
+
+    "icons": {
+        "16": "./icons/pickr16.png",
+        "48": "./icons/pickr48.png",
+        "128": "./icons/pickr128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "./pickr.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "tabs",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ]
+}

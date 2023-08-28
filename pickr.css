@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+html {
+    font-size: 16px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#pickrContainer {
+    min-width: 200px;
+    width: max-content;
+    padding: 0.4rem;
+}
+
+#pickrContainer h1 {
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    user-select: none;
+}
+
+#pickrButton {
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#pickrButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#palette {
+    list-style: none;
+    grid-gap: 10px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+#palette li {
+    cursor: pointer;
+    padding: 1.4rem 0.4rem;
+    font-size: 0.7rem;
+    border-radius: 0.2rem;
+    color: #222;
+    border: 0.3px solid #222;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.actionLabel {
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 14px;
+    border-radius: 0.2rem;
+}
+
+#clearButton {
+    padding: 5px 7px;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+    margin: 0.3rem 0 0;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#clearButton:hover {
+    background-color: white;
+    color: black;
+}
