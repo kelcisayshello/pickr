@@ -14,7 +14,10 @@ Thanks for taking interest! You won't find Pickr in the Chrome Web Store. I've d
 1. Download this repository as a `.zip` file
 2. Extract and place the entire Pickr repository folder somewhere safe (*I suggest the Documents or make a Developer directory - just somewhere you wont accidentally delete it*)
 3. Open Chrome web browser. In the right-hand menu, navigate down to **Extensions** then click on **Manage Extensions**.
-![Visual aid of how to navigate into the Extensions tab within Chrome Web Store](./images/step3.png)
+<img src="/img/contact.png" alt="image" width="200" height="auto">
 4. Ensure that you are in "Developer Mode" by clicking the toggle in the top corner so it becomes blue.
 5. Click on **Load unpacked** and navigate into the root of the Pickr folder. Press **Select**.
 6. You're done! Now you can use the extension by clicking on the puzzle logo in the address bar and selecting **Pickr**.
+
+### Quick Fix(es)
+* If for any reason the eye dropper tool does not appear when you select **Pick a color**, refresh the page first before using the extension. If the problem persists then you can let me know by [creating an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/creating-an-issue).
