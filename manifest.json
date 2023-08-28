@@ -6,7 +6,8 @@
     "description": "Easy-to-use eye dropper tool for picking colors from web pages.",
 
     "action": {
-        "default_popup": "./popup.html"
+        "default_popup": "./popup.html",
+        "default_icon": "./icons/pickr128.png"
     },
 
     "author": "kelcisayshello",  
