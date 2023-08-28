@@ -15,7 +15,7 @@ Thanks for taking interest! You won't find Pickr in the Chrome Web Store. I've d
 2. Extract and place the entire Pickr repository folder somewhere safe (*I suggest the Documents or make a Developer directory - just somewhere you wont accidentally delete it*)
 3. Open the Chrome web browser. In the right-hand menu, navigate down to **Extensions** then click on **Manage Extensions**.
 
-<div style="text-align:center">
+<div style="text-align:center" align="center">
     <img src="./images/step3.png" alt="image" width="300" height="auto">
 </div>
 
