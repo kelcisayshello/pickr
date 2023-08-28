@@ -1,3 +1,5 @@
-# Pickr -- Color Eye Dropper Chrome Extension
+# Pickr — Eye Dropper Chrome Extension Tool
 
-Pickr is a very minimalistic Chrome Extension built to select colors from web pages using a standard eye dropper tool. Pickr saves up to eight (8) of your most recently used colors in local storage memory.
+Pickr is a minimalistic Chrome Extension tool I built to experiment with designing my own Chrome Extensions using [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/). Pickr also saves your most recently used colors in local memory so you can revisit your palette later (if need be).
+
+![Screenshot of Pickr user interface (UI)](./screenshot.png)
